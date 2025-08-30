@@ -2,9 +2,9 @@
   "name": "crown-shisha-website",
   "version": "1.0.0",
   "description": "A modern, professional, and futuristic single-page website for a premium shisha catering service.",
-  "homepage": "https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME",
+  "homepage": "https://TYFSADIK.github.io/heda1",
   "scripts": {
-    "build": "tsc && copyfiles -u 1 ./*.html ./*.css ./*.js ./*.ico dist",
+    "build": "tsc && copyfiles -u 1 index.html index.css tailwind.config.js favicon.ico dist",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
