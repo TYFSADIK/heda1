@@ -1,0 +1,26 @@
+{
+  "name": "crown-shisha-website",
+  "version": "1.0.0",
+  "description": "A modern, professional, and futuristic single-page website for a premium shisha catering service.",
+  "homepage": "https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME",
+  "scripts": {
+    "build": "tsc && copyfiles -u 1 ./*.html ./*.css ./*.js ./*.ico dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "tailwind",
+    "catering"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "gh-pages": "^6.1.1",
+    "typescript": "^5.4.5",
+    "copyfiles": "^2.4.1"
+  }
+}
